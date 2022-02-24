@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #F0FFFF;
+    background-color: #F5F5F5;
 }
 
 a {
@@ -93,6 +93,7 @@ nav {
     transition: transform 0.8s ease-in;
     transform: translateX(0);
 }
+
 
 .mobile-menu.active .line1{
     transform: rotate(-45deg) translate(-8px, 8px);
