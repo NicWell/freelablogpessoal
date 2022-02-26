@@ -1,0 +1,2 @@
+var _0x364e = ["\x67\x65\x74\x46\x75\x6C\x6C\x59\x65\x61\x72", "\x6C\x6F\x67", "\x69\x6E\x6E\x65\x72\x54\x65\x78\x74", "\x66\x6F\x74\x32", "\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64", ""]; function newdate2() { data = new Date; console[_0x364e[1]](typeof (data[_0x364e[0]]())); document[_0x364e[4]](_0x364e[3])[_0x364e[2]] = `${_0x364e[5]}${data[_0x364e[0]]()}${_0x364e[5]}` };
+newdate2()

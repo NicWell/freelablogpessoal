@@ -1,0 +1,33 @@
+.logo-whats {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 88);
+}
+h2 {
+    margin: 50px;
+    text-align: center;
+}
+.border{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#fig2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 105px;
+    margin-block-end: 90px;
+}
+figcaption {
+    margin-top: 3px;
+}
+#fig1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+pre {
+    text-decoration: underline;
+    color: blue;
+}
