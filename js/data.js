@@ -1,7 +1,2 @@
-function newdate() {
-    data = new Date;
-    monName = new Array("janeiro", "fevereiro", "março", "abril", "maio", "junho", "agosto", "outubro", "novembro", "dezembro");
-    console.log(typeof (data.getDate()));
-    document.getElementById("data-atual").innerHTML = `<span>${data.getDate()} de ${monName[data.getMonth()]}, ${data.getFullYear()}</span>`;
-}
-newdate();
+var _0xc50d = ["\x6A\x61\x6E\x65\x69\x72\x6F", "\x66\x65\x76\x65\x72\x65\x69\x72\x6F", "\x6D\x61\x72\xE7\x6F", "\x61\x62\x72\x69\x6C", "\x6D\x61\x69\x6F", "\x6A\x75\x6E\x68\x6F", "\x61\x67\x6F\x73\x74\x6F", "\x6F\x75\x74\x75\x62\x72\x6F", "\x6E\x6F\x76\x65\x6D\x62\x72\x6F", "\x64\x65\x7A\x65\x6D\x62\x72\x6F", "\x67\x65\x74\x44\x61\x74\x65", "\x6C\x6F\x67", "\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C", "\x64\x61\x74\x61\x2D\x61\x74\x75\x61\x6C", "\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64", "\x3C\x73\x70\x61\x6E\x3E", "\x20\x64\x65\x20", "\x67\x65\x74\x4D\x6F\x6E\x74\x68", "\x2C\x20", "\x67\x65\x74\x46\x75\x6C\x6C\x59\x65\x61\x72", "\x3C\x2F\x73\x70\x61\x6E\x3E", "\x69\x6E\x6E\x65\x72\x54\x65\x78\x74", "\x66\x6F\x74", ""]; function newdate() { data = new Date; monName = new Array(_0xc50d[0], _0xc50d[1], _0xc50d[2], _0xc50d[3], _0xc50d[4], _0xc50d[5], _0xc50d[6], _0xc50d[7], _0xc50d[8], _0xc50d[9]); console[_0xc50d[11]](typeof (data[_0xc50d[10]]())); document[_0xc50d[14]](_0xc50d[13])[_0xc50d[12]] = `${_0xc50d[15]}${data[_0xc50d[10]]()}${_0xc50d[16]}${monName[data[_0xc50d[17]]()]}${_0xc50d[18]}${data[_0xc50d[19]]()}${_0xc50d[20]}`; document[_0xc50d[14]](_0xc50d[22])[_0xc50d[21]] = `${_0xc50d[23]}${data[_0xc50d[19]]()}${_0xc50d[23]}` };
+newdate()
