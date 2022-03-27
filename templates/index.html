@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wellington Nicacio">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/header.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{url_for('static', filename='fav.ico/apple-icon-57x57.png')}}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{url_for('static', filename='fav.ico/apple-icon-60x60.png')}}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{url_for('static', filename='fav.ico/apple-icon-72x72.png')}}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{url_for('static', filename='fav.ico/apple-icon-76x76.png')}}">
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="{{url_for('static', filename='fav.ico/apple-icon-114x114.png')}}">
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="{{url_for('static', filename='fav.ico/apple-icon-120x120.png')}}">
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="{{url_for('static', filename='fav.ico/apple-icon-144x144.png')}}">
+    <link rel="apple-touch-icon" sizes="152x152"
+        href="{{url_for('static', filename='fav.ico/apple-icon-152x152.png')}}">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="{{url_for('static', filename='fav.ico/apple-icon-180x180.png')}}">
+    <link rel="icon" type="image/png" sizes="192x192"
+        href="{{url_for('static', filename='fav.ico/android-icon-192x192.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static', filename='fav.ico/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{url_for('static', filename='fav.ico/favicon-96x96.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static', filename='fav.ico/favicon-16x16.png')}}">
+    <link rel="manifest" href="{{url_for('static', filename='fav.ico/manifest.json')}}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{url_for('static', filename='fav.ico/ms-icon-144x144.png')}}">
+    <meta name="theme-color" content="#ffffff">
+    <title>SJ Formação Continuada</title>
+    <base href="/" target="_parent">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo">Silvio Júnior</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#sobreMim">Sobre Mim</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+                <li><a href="/social.html">Redes Sociais</a></li>
+                <li><a href="/index.html">Acessar Cursos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <figure class="imagem">
+                <img src="{{url_for('static', filename='junior.png')}}" alt="Foto de perfil" width="250" height="300">
+                <figcaption>Silvio Nunes</figcaption>
+            </figure>
+            <div id="data-atual"></div>
+            <h2 id="sobreMim">biografia</h2>
+            <p>Meu nome é Silvio Nunes da Silva Júnior, sou professor e linguista aplicado. Iniciei meu trajeto como na
+                educação em 2013, ao, em meio a tantos cursos, ter escolhido a licenciatura em Letras/Português. Fui
+                imerso num mundo de múltiplas descobertas que me possibilitou o encantamento cada vez maior com o
+                ensino, a aprendizagem e a formação de professores. Esses elementos me motivaram a, após o término do
+                curso de Letras (2016), me aventurar por outros horizontes. Assim, concluí mestrado (2019) e doutorado
+                (2021) em Linguística, com pesquisas voltadas ao ensino de língua portuguesa. Além disso, cursei
+                licenciaturas em Pedagogia e em Arte, visando o aprofundamento cada vez maior das minhas reflexões sobre
+                a linguagem e o ensino. Efetuei, mais recentemente, um estágio pós-doutoral que abarcou uma pesquisa
+                acerca da construção dos saberes docentes de licenciandos em Letras de uma universidade pública.
+                Atualmente, sinto-me realizado em dizer que sou professor efetivo da rede pública de ensino básico e,
+                ainda, de ensino superior. Nos próximos meses estarei iniciando meu segundo estágio pós-doutoral, sempre
+                na tentativa de me tornar um professor e um formador humano e responsivo. Em meio a essa trajetória,
+                estou lançando, neste espaço, o fruto de um projeto já sonhado há algum tempo, que se volta para a
+                formação continuada de professores: o SJ Formação Continuada.</p>
+        </section>
+    </main>
+    <script src="{{url_for('static', filename='js/navbar.js')}}"></script>
+    <footer>
+        <small>Copyright &copy;<span id="fot"></span></small>
+    </footer>
+    <script src="{{url_for('static', filename='js/data.js')}}"></script>
+</body>
+
+</html>
