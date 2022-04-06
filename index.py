@@ -14,5 +14,10 @@ def contato():
     return render_template('contato.html')
 
 
+@app.route('/social.html')
+def social():
+    return render_template('social.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
