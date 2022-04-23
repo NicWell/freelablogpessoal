@@ -1,0 +1,134 @@
+/* background: linear-gradient(120deg, rgb(0, 0, 88), rgb(142, 68, 173)); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background: linear-gradient(45deg, rgb(0, 0, 88), rgb(142, 68, 173));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+main.container {
+    background: white;
+    max-width: 300px;
+    min-height: 35vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+main h2::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 72px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #305cc2, #8e54e9);
+}
+
+.input-field {
+    position: relative;
+}
+
+.input-field input {
+    outline: none;
+    font-size: 0.7rem;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.input-field input::placeholder {
+    color: rgb(0, 0, 0, 0.5);
+}
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: linear-gradient(to right, #305cc2, #8e54e9);
+    cursor: pointer;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to left, #305cc2, #8e54e9);
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+.input-field .underline::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgb(0, 0, 0, 0.2);
+}
+
+.input-field .underline::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(to left, #305cc2, #8e54e9);
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.input-field input:focus~.underline::after {
+    transform: scaleX(1);
+}
+
+.voltar {
+    background: linear-gradient(to right, #305cc2, #8e54e9);
+    border-radius: 5px;
+    color: rgb(255, 255, 255, 0.9);
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all 0.2s ease-in;
+}
+
+.voltar:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to left, #305cc2, #8e54e9);
+}

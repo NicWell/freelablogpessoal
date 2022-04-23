@@ -31,16 +31,26 @@
     <base href="/" target="_parent">
     <!-- <script src="{{url_for('static', filename='js/navbar.js')}}" defer></script> -->
     <!-- <link rel="stylesheet" href="{{url_for('static', filename='css/header.css')}}"> -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/login.css')}}">
     <title>Login</title>
 </head>
 
 <body>
-    <main>
-        <h2>
-            teste
-        </h2>
+    <main class="container">
+        <h2>Login</h2>
+        <form method="post">
+            <div class="input-field">
+                <input type="text" name="email" required placeholder="Digite seu email" id="email">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" required placeholder="Digite sua senha" id="password">
+                <div class="underline"></div>
+            </div>
+            <input type="submit" value="Continue">
+            <a href="/index.html" class="voltar">Voltar</a>
+        </form>
     </main>
-
 </body>
 
 </html>
